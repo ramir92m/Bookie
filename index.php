@@ -67,7 +67,7 @@
 			</div>
 			<div class="column span-11 last">
 				<div id="registration-form">
-                                    <form action="lib/registration.php" method="POST">
+                                    <form id="register-form">
 					<h3 class="reg-header">Account Sign-up</h3>
 					<div class="input-inline">
 						<label>Full Name</label>
@@ -86,7 +86,7 @@
 						<input type="text" name="email" />
 					</div>
 					<div class="input-inline">
-						<input type="submit" name="register" value="Sign Up" />
+						<input type="button" name="register" value="Sign Up" id="register" />
 					</div>
                                     </form>
 				</div>
