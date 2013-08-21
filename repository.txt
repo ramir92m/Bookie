@@ -1,0 +1,14 @@
+Code Repository
+
+user panel
+
+
+<div id="user-panel">
+							<img src="../img/default-photo.jpg" />
+							<ul class="nav nav nav-pills nav-stacked">
+								<li class="active"><a href="#">Activities</a></li>
+								<li><a href="#">Upload</a></li>
+								<li><a href="#">View Books</a></li>
+								<li><a href="#">Profile</a></li>
+							</ul>
+						</div>

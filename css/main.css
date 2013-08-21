@@ -1,0 +1,234 @@
+
+/*Bevan Fonts for Banner*/
+@import url(http://fonts.googleapis.com/css?family=Bevan);
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	min-height: 100%;
+	height:100%;
+}
+
+body
+{
+	background: #206EF5;
+	font-size: 100%;
+	font-family: "Helvetica";
+}
+
+hr
+{
+	border:0;
+	background:#0A55D6 ;
+	display:block;
+}
+
+span
+{
+	vertical-align:baseline;
+}
+
+.label
+{
+	font-family: "Gill Sans",Arial;
+	color:#fff;
+	padding-left: 0.4em;
+	font-size:10pt;
+	vertical-align:middle;
+}
+input[type="text"],input[type="password"]
+{
+	border:1px solid #333;
+	padding:0.5em;
+	vertical-align:middle;
+	
+}
+.input-inline
+{
+	display:block;
+	width: 400px;
+	margin:0 auto;
+	padding:0 0 1em 0;
+}
+.logo
+{
+	display:inline;
+	font-family:"Gill Sans",Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	font-weight:bold;
+	vertical-align:middle;
+	
+}
+
+/*Registraion Section Header*/
+.reg-header
+{
+	
+	display:block;
+	font-size:16pt;
+	font-family:"Gill Sans",Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*Element float*/
+.right
+{
+	float:right;
+}
+.left 
+{
+	float: left;
+}
+
+/*Customize Button*/
+.mybutton
+{
+	border:0;
+	padding:0.4em;
+	background-color: #F75339;
+	color:#fff;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+.mybutton:active
+{
+	background-color: #fff;
+}
+
+/*Hero banner or unit or whatever they call it :D*/
+
+.unit-header
+{
+	font-family: "Bevan",cursive;
+	color: #F5F5F5;
+	font-size: 32pt;
+	padding: 1.131em 0;
+	line-height: 1.5em;
+	
+}
+
+.unit-thumbnail li
+{
+	list-style-type:none;
+	display:inline-block;
+	padding-left: 1.5em;
+	
+}
+.unit-thumbnail li img
+{
+	display:block;
+	height: 45px;
+	width: 45px;
+}
+
+.unit-thumbnail li h1, .unit-thumbnail li h2, .unit-thumbnail li h3, .unit-thumbnail li h4, .unit-thumbnail li h5, .unit-thumbnail li h6
+{
+	padding-top: 0.4em;
+	color:#fff;
+}
+.unit-thumbnail p
+{
+	width: 80%;
+	padding-top: 0.8em;
+	color: #fff;
+}
+
+/*Header with login form*/
+#header
+{
+	padding: 10px;
+	background: #222222;
+	border-bottom: 1px solid #77A6F9;
+}
+
+#header img
+{
+	padding:0;
+	margin:0;
+	vertical-align: middle;
+}
+
+/*Expandable Height of content*/
+#content
+{
+	height:100%;
+}
+/*Customize registration form*/
+
+#registration-form
+{
+	padding: 1.131em 0;
+}
+
+#registration-form label
+{
+	margin: 0;
+	padding: 0;
+	display:block;
+	color: #fff;
+	font-size:12pt;
+	width: 6em;
+	text-align:right;
+	float:left;
+	
+	
+}
+#registration-form input[type="text"],#registration-form input[type="password"]
+{
+	background-color: #fff;
+	border:1px solid #0A55D6;
+	margin-left: 0.7em;
+	width: 200px;
+	
+}
+
+#registration-form input[type="button"],#registration-form input[type="submit"]
+{
+	display:block;
+	width: 10em;
+	padding: 1em;
+	background:#7DA80E;
+	color: #2A3905;
+	margin: 0 auto;
+	border:2px solid #547109;
+	font-size: 14pt;
+	
+}
+
+#registration-form input[type="button"]:active
+{
+	display:block;
+	width: 10em;
+	background:#7DA80E;
+	color: #ddd;
+	border:0;
+}
+
+/*Footer*/
+#footer
+{
+	border-top:1px solid #0A55D6;
+	clear:both;
+	position:relative;
+	bottom:0;
+	text-align:center;
+	font-size: 8pt;
+	padding: 20px;
+	background-color: #222222;
+	color:#fff;
+}
+
+
+
+
+
+
