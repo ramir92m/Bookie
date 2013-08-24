@@ -98,10 +98,7 @@ class Database {
         
     }
     
-    public function generate_uid()
-    {
-        
-    }
+    
     
     
     
