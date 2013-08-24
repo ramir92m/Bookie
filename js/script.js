@@ -8,7 +8,7 @@ $(document).ready(function(){
     //Send POST data from script registration
     $("#register").click(function(){
         
-        $.post("lib/registration.php",$("#register-form").serialize(),
+        $.post("lib/registration.php?register=true",$("#register-form").serialize(),
             function(data)
             {
                 alert(data);
