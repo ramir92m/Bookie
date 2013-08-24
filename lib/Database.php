@@ -85,6 +85,24 @@ class Database {
         return mysql_query();
     }
     
+    public function selectQuery($column, $table,$condition)
+    {
+        if(isset($condition))
+        {
+            return mysql_query("SELECT $column FROM $table WHERE $condition");
+        }
+        else
+        {
+            return mysql_query("SELECT $column FROM $table");
+        }
+        
+    }
+    
+    public function generate_uid()
+    {
+        
+    }
+    
     
     
     
